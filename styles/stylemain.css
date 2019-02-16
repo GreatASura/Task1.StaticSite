@@ -1,0 +1,141 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    background-color: white;
+}
+
+img {
+    cursor: pointer;
+    transition: all .4s;
+}
+.cv {
+    margin-left: 5px;
+    margin-top: 15px;
+    font-family: monospace;
+    font-size: 16pt;
+}
+.img-scena {
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 0;
+    opacity: 0;
+    box-sizing: border-box;
+    border: solid #eee 2px;
+    border-radius: 2.5%;
+    z-index: 1050;
+    transition: all 0.75s;
+    background: #fff;
+    overflow: hidden;
+}
+
+.img-scena.active {
+    opacity: 1;
+    height: 90%;
+    max-width: 90%;
+}
+
+.img-scena img {
+    height: auto;
+    max-height: 100%;
+    width: auto;
+}
+
+.imgs img:hover {
+    transform: scale(1.2);
+}
+
+.imgs {
+   height: auto;
+}
+
+.imgs > div {
+     overflow: hidden;
+}
+
+.imgs img {
+    height: auto;
+    object-fit: cover;
+}
+footer {
+    bottom: 0;
+    height: 50px;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+    color: dimgray;
+
+}
+
+.res {
+    width: 80%
+}
+.navii {
+    width: 20%;
+    text-align: center
+}
+
+#logo {
+    vertical-align: middle;
+    align-items: center;
+    text-align: center;
+}
+.normalfont {
+    font-family: monospace;
+}
+
+
+#name {
+    font-size: 27pt;
+}
+.row1 {
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+
+.column1 {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+
+
+.column1 img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+#rightblock {
+    margin-top: 40px;
+}
+
+form lable {
+    font-size: 1.75rem
+}
+
+@media all and (max-width: 1200px) {
+    .column1 {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+@media all and (max-width: 800px) {
+    .column1 {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
