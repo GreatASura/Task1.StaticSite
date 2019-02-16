@@ -1,0 +1,129 @@
+#main {
+    background: url(../img/main2.jpg) no-repeat center center/cover;
+    height: 100vh;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+    color: white;
+
+}
+
+.whitecolor {
+    font-family: monospace;
+    color: azure;
+    text-align: center;
+    font-size: 22px;
+}
+
+.controlbutton {
+    text-align: center;
+    align-content: center;
+}
+
+#headName {
+    font-family: monospace;
+    color: white;
+    text-align: center;
+    font-size: 64px;
+}
+
+#name {
+    padding-top: 5rem;
+}
+#content {
+    padding-top: 24rem;
+}
+@media screen and (max-width: 1024px) {
+    .whitecolor {
+        font-size: 30px;
+    }
+
+    #name {
+        padding-top: 5rem;
+    }
+
+    #content {
+        padding-top:13rem;
+
+    }
+}
+@media screen and (max-width: 1024px) and (min-height: 1024px){
+    .whitecolor {
+        font-size: 30px;
+    }
+
+    #name {
+        padding-top: 15rem;
+    }
+
+    #content {
+        padding-top: 43rem;
+
+    }
+}
+
+@media screen and (max-width: 768px) and (min-height:800px) {
+    .whitecolor {
+        font-size: 20px;
+    }
+
+    #name {
+        padding-top: 10rem;
+    }
+
+    #content {
+        padding-top: 33rem;
+
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .whitecolor {
+        font-size: 20px;
+    }
+
+    #name {
+        padding-top: 5rem;
+    }
+
+    #content {
+        padding-top: 16rem;
+
+    }
+}
+
+@media screen and (max-width: 375px) and (max-height: 667px ) {
+    #headName
+    {
+        font-size: 50px;
+    }
+    #name {
+        padding-top: 3rem;
+    }
+
+    #content {
+        padding-top: 13rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #headName {
+        font-size: 45px;
+    }
+
+    .whitecolor {
+        font-size: 16px;
+    }
+
+    #name {
+        padding-top: 4rem;
+    }
+
+    #content {
+        padding-top: 9rem;
+
+    }
+}
